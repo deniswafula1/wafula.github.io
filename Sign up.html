@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Gallery</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="">Sign Up</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="main-container">
+  <div class="form-container">
+    <h2>Register Form</h2>
+    <form action="">
+      <div class="form-group">
+        <label for="name"><i class="fa-solid fa-person-circle-plus"></i>Name</label>
+        <input type="text" id="name" name="name" required placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label for="email"><i class="fa-solid fa-envelope"></i>Email</label>
+        <input type="email" id="email" name="email" required placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="password"><i class="fa-solid fa-lock"></i>Password</label>
+        <input type="password" name="password" id="password" required placeholder="password">
+      </div>
+       <div class="form-group">
+        <label for="confirm-password"><i class="fa-solid fa-lock"></i>Confirm Password</label>
+        <input type="password" name="confirm-password" id="confirm-password" required placeholder="Confirm password">
+      </div>
+      <div class="form-group">
+        <label><i class="fa-solid fa-venus-mars"></i>Gender</label>
+        <div class="radio-group">
+          <label><input type="radio" name="gender" id="male">Male</label>
+          <label><input type="radio" name="gender" id="female">Female</label>
+          <label><input type="radio" name="gender" id="other">Other</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="county"><i class="fa-solid fa-globe"></i>County</label>
+        <select name="county" id="county">
+            <option value="" disabled selected>Select your County</option>
+            <option value="Nairobi">Nairobi</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Nakuru">Nakuru</option>
+            <option value="Kiambu">Kiambu</option>
+            <option value="Machakos">Machakos</option>
+            <option value="Uasin Gishu">Uasin Gishu</option>
+            <option value="Kakamega">Kakamega</option>
+            <option value="Kajiado">Kajiado</option>
+            <option value="Nyeri">Nyeri</option>
+           <option value="Kitale">Kitale</option>
+           <option value="Nyamira">Nyamira</option>
+           <option value="Eldoret">Eldoret</option>
+           <option value="Kisumu">Kisumu</option>
+           <option value="Siaya">Siaya</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <button type="submit"><i class="fa-solid fa-user-plus"></i>Register</button>
+      </div>
+    </form>
+  </div>
+  <div class="table-container">
+    <h2>Table With Users Registered</h2>
+    <table>
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>County</th>
+
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Clarion Mukasia</td>
+        <td>mukasiaclarion@gmail.com</td>
+        <td>Female</td>
+        <td>Kakamega</td>
+      </tr>
+      <tr>
+        <td>Dennis Wafula</td>
+        <td>deniwafula96@gmail.com</td>
+        <td>Male</td>
+        <td>Kitale</td>
+      </tr>
+      <tr>
+        <td>Rigathi Gashagua</td>
+        <td>rigathigashagua@gmail.com</td>
+        <td>Male</td>
+        <td>Bomet</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</body>
+</html>
